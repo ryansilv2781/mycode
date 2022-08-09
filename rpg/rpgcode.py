@@ -141,5 +141,5 @@ while True:
 
   ## If a player enters a room with a monster
   elif 'item' in rooms[currentRoom] and 'monster' in rooms[currentRoom]['item']:
-    print('A monster has got you... GAME OVER!')
+    print('you never EVER go into the vents.... the monster got you... GAME OVER!')
     break

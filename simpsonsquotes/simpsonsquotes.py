@@ -43,7 +43,8 @@ def main():
         print('\"'+selquote[0]['quote']+'\"')
         print('         -',selquote[0]['character'])
         print('-------------------------')
-
+        input("Hope it was a funny quote... try this one...")
+        main()
     else:
         answer= input("Did you mean \'random\'?\n")
 
